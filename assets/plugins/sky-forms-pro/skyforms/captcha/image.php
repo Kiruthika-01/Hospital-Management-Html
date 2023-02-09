@@ -13,7 +13,7 @@ else
 // Set the content type
 //header('Content-type: image/png');
 header('Cache-control: no-cache');
-
+//color:"pink";
 // Create an image from button.png
 $image = imagecreatefrompng('button.png');
 
